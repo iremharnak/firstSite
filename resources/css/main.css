@@ -17,6 +17,9 @@ body {
     font-style: Arial;
     margin: 0;
 }
+ul {
+    list-style: none;
+}
 
 /* Header & Navbar */
 .logo {
@@ -24,7 +27,7 @@ body {
     justify-content: flex-start;
 }
 
-/* Galleries */
+/* Main Galleries */
 .citiesExplored {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
@@ -40,3 +43,5 @@ body {
     width: 100%;
     box-shadow: -1px 0px 0px rgba(0,0,0,0.06);
 }
+
+/* Footer */
