@@ -17,12 +17,25 @@ body {
     font-style: Arial;
     margin: 0;
 }
-.spotlight {
+
+/* Header & Navbar */
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Galleries */
+.citiesExplored {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     width: 100%;
 }
-img {
+.spotlight {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    width: 100%;
+}
+ section img {
     display: block;
     width: 100%;
     box-shadow: -1px 0px 0px rgba(0,0,0,0.06);
