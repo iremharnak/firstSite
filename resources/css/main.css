@@ -41,7 +41,11 @@ ul {
  section img {
     display: block;
     width: 100%;
-    box-shadow: -1px 0px 0px rgba(0,0,0,0.06);
+    /* box-shadow: -1px 0px 0px rgba(0,0,0,0.06); */
 }
 
 /* Footer */
+footer ul {
+    display: inline-flex;
+    justify-content: space-between;  
+}
