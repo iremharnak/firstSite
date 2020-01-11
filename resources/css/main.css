@@ -35,6 +35,14 @@ ul {
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     width: 100%; */
 }
+.city {
+    margin: 2px;
+    background-color: violet;
+    /* overflow: hidden; */
+}
+.city img {
+    border-radius: 2rem;
+}
 .spotlight {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
