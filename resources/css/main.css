@@ -1,5 +1,5 @@
 /* CSS HACK */
-* { background-color: rgba(255,0,0,.2); }
+/* * { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
@@ -7,7 +7,7 @@
 * * * * * * { background-color: rgba(255,255,0,.2); }
 * * * * * * * { background-color: rgba(255,0,0,.2); }
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
-* * * * * * * * * { background-color: rgba(0,0,255,.2); }
+* * * * * * * * * { background-color: rgba(0,0,255,.2); } */
 
 /* General Rules */
 * {
@@ -48,6 +48,9 @@ ul {
 
 /* Footer */
 footer ul {
-    display: inline-flex;
-    justify-content: space-between;  
+    /* display: inline-flex;
+    justify-content: space-between;   */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
