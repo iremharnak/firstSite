@@ -29,9 +29,11 @@ ul {
 
 /* Main Galleries */
 .citiesExplored {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    width: 100%;
+    width: 100%; */
 }
 .spotlight {
     display: grid;
