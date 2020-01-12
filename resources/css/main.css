@@ -14,8 +14,9 @@
     box-sizing: border-box;
 }
 body {
-    font-style: Arial;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0.5rem;
+
 }
 ul {
     list-style: none;
@@ -26,8 +27,19 @@ ul {
     display: flex;
     justify-content: flex-start;
 }
-
+.search-box {
+    margin: 0 0.50.2remrem;
+    border: turquoise solid 2px;
+}
+input {
+    border-radius: 4px;
+    border-color: rgb(34, 31, 31);
+}
 /* Main Galleries */
+main h2 , p{
+    margin-left: 0.2rem;
+    
+}
 .citiesExplored {
     display: flex;
     flex-direction: row;
@@ -36,13 +48,15 @@ ul {
     width: 100%; */
 }
 .city {
-    margin: 2px;
-    background-color: violet;
-    /* overflow: hidden; */
+    margin: 0 5px;
+    /* padding: 0 10px; */
+    /* background-color: rgb(214, 216, 207); */
+    overflow: hidden;  
 }
 .city img {
-    border-radius: 2rem;
+    border-radius: 6px;
 }
+
 .spotlight {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
