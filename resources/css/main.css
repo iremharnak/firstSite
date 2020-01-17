@@ -84,7 +84,10 @@ main article {
     width: 100%;
 }
 .facts {
-    margin: 0 5px;
+    background-color:#fbfbfb;
+    margin: 20px;
+    padding: 5px;
+    overflow: hidden;
 }
  section img {
     display: block;
