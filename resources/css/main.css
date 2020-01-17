@@ -1,5 +1,5 @@
-/* CSS HACK */
-/* * { background-color: rgba(255,0,0,.2); }
+CSS HACK 
+ /* * { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
@@ -15,7 +15,8 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0.5rem;
+    margin: 0;
+    background-color: #E1E2E1;
 
 }
 ul {
@@ -23,22 +24,42 @@ ul {
 }
 
 /* Header & Navbar */
-.logo {
+header {
+    background-color: #ffee58;
+    
+}
+nav {
+    padding: 0.5rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.hamburgerMenu {
+    flex-basis: 50%;
+    text-align: left;
+    margin-top: 0.5rem;
+    
+}
+.logo {
+    width: 50%;
 }
 .search-box {
-    margin: 0 0.50.2remrem;
-    border: turquoise solid 2px;
+    flex-basis: 40%; 
+    /* border: #2ec4b9 solid 2px; */
 }
 input {
     border-radius: 4px;
-    border-color: rgb(34, 31, 31);
+    border-color: #009389;
 }
+
 /* Main Galleries */
-main h2 , p{
-    margin-left: 0.2rem;
+main h1, h2, h3, p {
+    margin-left: 0.5rem;
     
+}
+main article {
+    margin-left: 0.5rem;
 }
 .citiesExplored {
     display: flex;
@@ -62,6 +83,9 @@ main h2 , p{
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     width: 100%;
 }
+.facts {
+    margin: 0 5px;
+}
  section img {
     display: block;
     width: 100%;
@@ -69,10 +93,10 @@ main h2 , p{
 }
 
 /* Footer */
-footer ul {
+/* footer ul {
     /* display: inline-flex;
     justify-content: space-between;   */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+} */
