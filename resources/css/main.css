@@ -58,8 +58,13 @@ main h1, h2, h3, p {
     margin-left: 0.5rem;
     
 }
-main article {
+/* main article {
     margin-left: 0.5rem;
+} */
+main button {
+    margin-left: 0.5rem;
+    background-color: #009389;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .citiesExplored {
     display: flex;
